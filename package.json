@@ -4,7 +4,9 @@
   "description": "A React chat app using Redux and Scoket IO",
   "main": "webpack.config.dev.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test",
+    "start": "babel-node scripts/server.js",
+    "lint": "node_modules/.bin/esw webpack.config.* src tools"
   },
   "repository": {
     "type": "git",
@@ -17,19 +19,14 @@
     "Chat",
     "Messanger"
   ],
-  "scripts": {
-    "test": "test",
-    "start": "babel-node scripts/server.js",
-    "lint": "node_modules/.bin/esw webpack.config.* src tools"
-  },
   "dependencies": {
     "bootstrap": "^3.3.7",
     "react": "^15.3.1",
-    "react-bootstrap": "^0.30.6",
+    "react-bootstrap": "^0.30.10",
     "react-codemirror": "^0.2.6",
-    "react-dom": "^15.4.0",
+    "react-dom": "^15.6.1",
     "react-redux": "^4.4.5",
-    "react-router": "^2.7.0",
+    "react-router": "^2.8.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
     "socket.io": "^1.5.1"

@@ -1,9 +1,15 @@
-import React from 'react'
+import React from 'react';
+
+import Navigation from './Navigation';
 
 export default class App extends React.Component {
   render() {
     return (
-      <h1>React Chat App</h1>
-    )
+      <div>
+        <h2>React Chat App</h2>
+        <Navigation />
+        {this.props.children}
+      </div>
+    );
   }
 }
