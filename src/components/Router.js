@@ -1,22 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Router, Route, browserHistory, Redirect } from 'react-router';
+import { Router, Route, browserHistory, Redirect, IndexRoute } from 'react-router';
 
 import App from './App';
 import Home from './Home';
-import Chat from './Chat';
 import Login from './Login';
 import Profile from './Profile';
-
-// http://redux.js.org/docs/advanced/UsageWithReactRouter.html
+import Gallery from './Gallery';
+import Upload from './Upload';
 
 const Root = () => (
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <Route path="/login" component={Login} />
+      <IndexRoute component={Login}/>
       <Route path="/home" component={Home} />
-      <Route path="/chat" component={Chat} />
       <Route path="/profile" component={Profile} />
+      <Route path="/upload" component={Upload} />
+      <Route path="/gallery" component={Gallery} />
     </Route>
     <Redirect from="/*" to="/home" />
   </Router>

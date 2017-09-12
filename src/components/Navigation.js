@@ -11,10 +11,13 @@ export default class Navigation extends React.Component {
             <Link to="home">Home</Link>
           </NavItem>
           <NavItem eventKey={2}>
-            <Link to="Chat">Chat</Link>
+            <Link to="profile">Profile</Link>
           </NavItem>
           <NavItem eventKey={3}>
-            <Link to="Profile">Profile</Link>
+            <Link to="gallery">Gallery</Link>
+          </NavItem>
+          <NavItem eventKey={4}>
+            <Link to="upload">Upload</Link>
           </NavItem>
         </Nav>
       </Navbar>
