@@ -1,7 +1,7 @@
 {
-  "name": "react-chat-app",
+  "name": "google-photo-upload",
   "version": "1.0.0",
-  "description": "A React chat app using Redux and Scoket IO",
+  "description": "A simple app to upload photos to your google account",
   "main": "webpack.config.dev.js",
   "scripts": {
     "test": "test",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrewBresee/react-chat-app.git"
+    "url": "git+https://github.com/AndrewBresee/google-photo-upload.git"
   },
   "keywords": [
     "React",
@@ -72,7 +72,7 @@
   "author": "Andrew Bresee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndrewBresee/react-chat-app/issues"
+    "url": "https://github.com/AndrewBresee/google-photo-upload/issues"
   },
-  "homepage": "https://github.com/AndrewBresee/react-chat-app#readme"
+  "homepage": "https://github.com/AndrewBresee/google-photo-upload#readme"
 }
