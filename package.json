@@ -1,5 +1,5 @@
 {
-  "name": "react-chat-app",
+  "name": "Bresee-Portfolio",
   "version": "1.0.0",
   "description": "A React chat app using Redux and Scoket IO",
   "main": "webpack.config.dev.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndrewBresee/react-chat-app.git"
+    "url": "git+https://github.com/AndrewBresee/portfolio"
   },
   "keywords": [
     "React",
@@ -25,10 +25,7 @@
     "react-bootstrap": "^0.30.10",
     "react-codemirror": "^0.2.6",
     "react-dom": "^15.6.1",
-    "react-redux": "^4.4.5",
     "react-router": "^2.8.1",
-    "redux": "^3.5.2",
-    "redux-thunk": "^2.1.0",
     "socket.io": "^1.5.1"
   },
   "devDependencies": {
@@ -61,7 +58,6 @@
     "npm-run-all": "1.8.0",
     "open": "0.0.5",
     "react-addons-test-utils": "15.0.2",
-    "redux-mock-store": "1.0.2",
     "style-loader": "0.13.1",
     "url-loader": "0.5.7",
     "webpack": "1.13.0",
