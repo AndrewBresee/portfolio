@@ -1,11 +1,11 @@
 /* eslint-disable import/default */
 
 import 'babel-polyfill' ;
-import React from 'react';  
-import { render } from 'react-dom';  
-import App from './components/App';
+import React from 'react';
+import { render } from 'react-dom';
+import Root from './components/Router';
 
-render(  
- <App />,
+render(
+ <Root />,
  document.getElementById('main')
 );
