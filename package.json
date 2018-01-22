@@ -5,7 +5,7 @@
   "main": "webpack.config.dev.js",
   "scripts": {
     "test": "test",
-    "start": "babel-node scripts/server.js",
+    "start": "node scripts/server.js",
     "lint": "node_modules/.bin/esw webpack.config.* src tools"
   },
   "repository": {
